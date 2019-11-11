@@ -41,9 +41,9 @@ while (gameplayer1.alive? && gameplayer2.alive?) do
   end
 
 if gameplayer1.lives == 0
-		puts "---#{gameplayer2.name} wins with a score of #{gameplayer2.lives}/3"
+		puts "#{gameplayer2.name} wins with a score of #{gameplayer2.lives}/3"
 elsif gameplayer2.lives == 0
-		puts "---#{gameplayer1.name} wins with a score of #{gameplayer1.lives}/3"
+		puts "#{gameplayer1.name} wins with a score of #{gameplayer1.lives}/3"
 end
 
 
